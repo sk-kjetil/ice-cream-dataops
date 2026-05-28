@@ -48,7 +48,7 @@ workflowDefinition:
       function:
         externalId: oee_timeseries
         data:
-          hours: 1
+          lookback_minutes: 60
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
